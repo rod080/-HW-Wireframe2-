@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pokeball Collector!</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container myContainer">
+      <!-- body text  -->
+      <div class="rules">
+        <h2>Welcome to the Pokemon Collector game!</h2>
+        <br />
+        <p>You will be given a random number at the start of the game.</p>
+        <br />
+        <p>
+          There are four pokeballs below. By clicking on a pokeball you will add
+          a specific amount of points to your total score.
+        </p>
+        <br />
+        <p>
+          The value of each pokeball is hidden from you until you click on it.
+        </p>
+        <br />
+        <p>
+          Each time the game starts, the value of he pokeballs will change.
+        </p>
+        <br />
+        <h2>Good luck!</h2>
+      </div>
+
+      <!-- <div class="container myContainer"> -->
+      <div class="row">
+        <h4 id="result"></h4>
+      </div>
+      <div class="row">
+        <h4 class="col-4" id="win">Your Wins:</h4>
+        <h4 class="col-4" id="loss">Your Losses:</h4>
+        <h4 class="col-4" id="myScore">Your Score:</h4>
+      </div>
+      <div class="row" id="balls">
+        <!-- <div class="balls"></div> -->
+      </div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+body{
+   
+    color:white;
+}
+#backgroundImage{
+    background-image: url("images/water.jpg");
+    background-size: cover;
+    height: 100vh;
+
+    
+
+}
+
+#backgroundColor{
+    height:100vh;
+    background-color: rgba(214,31,199,0.5);
+
+}
+.pure-g{
+    /* z-index: -1; */
+}
+
+.choiceButton{
+    background-color:grey; 
+    border-color: white;
+    border-radius: 12px;
+    
+}
+#submitButton{
+background-color:rgb(109, 235, 214);
+border-radius: 12px;
+padding: 10px;
+margin: 20px;
+}

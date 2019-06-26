@@ -1,0 +1,51 @@
+header{
+
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    height: 150px;
+    padding-top: 20px;
+}
+#employeeHeader{
+    margin-top: 20px;
+    background-color:rgb(197, 197, 197);
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+.table{
+    border-bottom: 2px black solid;
+}
+.subContainer{
+    border: 1px solid black;
+    ;
+    padding: 10px;   
+}
+#inputs{
+    border: 1px solid black;
+    ;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+h4{
+    border-bottom: 2px solid black;
+    width: 20%;
+    
+}
+#submitDiv{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+#submitButton{
+    background-color: forestgreen;
+    border: 2px solid black;
+        
+}
+.newData{
+    border-bottom: 1px grey solid;
+}

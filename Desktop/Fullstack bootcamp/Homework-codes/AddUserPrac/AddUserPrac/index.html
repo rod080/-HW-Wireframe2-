@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase Practice</title>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class=col-md-12>
+                <header>
+
+                    <h1>Employee Data Mangement</h1>
+
+                    <h3>A comprehensive Directory of Employee Billable Hours</h3>
+                </header>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p id=employeeHeader class="subHeader">Current Employees</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="subContainer">
+                    <div class="row">
+                        <div class="col-md 2">
+                            <div class="table" id="nameTable">
+                                <h5>Employee Name</h5>
+                            </div>
+                        </div>
+                        <div class="col-md 2">
+                            <div class="table" id="roleTable">
+                                <h5>Role</h5>
+                            </div>
+                        </div>
+                        <div class="col-md 2">
+                            <div class="table" id="startTable">
+                                <h5>Start Date</h5>
+                            </div>
+                        </div>
+                        <div class="col-md 2">
+                            <div class="table" id="mWorkedTable">
+                                <h5>Months Worked</h5>
+                            </div>
+                        </div>
+                        <div class="col-md 2">
+                            <div class="table" id="rateTable">
+                                <h5>Monthly Rate($)</h5>
+                            </div>
+                        </div>
+                        <div class="col-md 2">
+                            <div class="table" id="billedTable">
+                                <h5>Total Billed($)</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p id=employeeHeader class="subHeader">Add Employee</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="inputs">
+                    <h4>Name</h4>
+                    <input id="nameInput" type="textbox">
+                    <h4>Role</h4>
+                    <input id="role" type="textbox">
+                    <h4>StartDate</h4>
+                    <input id="startDate" type="textbox">
+                    <h4>monthlyRate</h4>
+                    <input id="monthlyRate" type="textbox">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="submitDiv">
+                    <button id="submitButton">Submit</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
